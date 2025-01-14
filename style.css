@@ -73,3 +73,16 @@
 .sec{
   color: rgb(166, 255, 0);
 }
+.hour-hand,.min-hand,.sec-hand{
+  position: absolute;
+  background-color: black;
+  border-radius: 20%;
+
+}
+.hour-hand{
+  height: 25%;
+  width: 2%;
+  top: 25%;
+  background-color: aqua;
+
+}
