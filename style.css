@@ -59,6 +59,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  gap: 8%;
+  font-size: 22px;
+  color: white;
 
+}
+.hour{
+  color: aqua;
+}
+.min{
+  color: rgb(0, 255, 98);
+}
+.sec{
+  color: rgb(166, 255, 0);
 }
