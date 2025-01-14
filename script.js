@@ -16,9 +16,9 @@ setInterval(()=>{
     hour_hand.style.transform = `rotate(${hrotation}deg)`;
     min_hand.style.transform = `rotate(${mrotation}deg)`;
     sec_hand.style.transform = `rotate(${srotation}deg)`;
-    hour.innerHTML=h;
-    min.innerHTML=m;
-    sec.innerHTML=s;
+    hour.innerHTML=(h<10?'0'+h:h)>12?h-12:h;
+    min.innerHTML=m<10?'0'+m:m;
+    sec.innerHTML=s<10?'0'+s:s;
 
 
 })
