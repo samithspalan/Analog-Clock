@@ -1,6 +1,9 @@
 let hour_hand=document.querySelector('.hour-hand')
 let min_hand=document.querySelector('.min-hand')
 let sec_hand=document.querySelector('.sec-hand')
+let hour=document.querySelector('.hour')
+let min=document.querySelector('.min')
+let sec=document.querySelector('.sec')
 
 setInterval(()=>{
     let time=new Date();
@@ -13,8 +16,9 @@ setInterval(()=>{
     hour_hand.style.transform = `rotate(${hrotation}deg)`;
     min_hand.style.transform = `rotate(${mrotation}deg)`;
     sec_hand.style.transform = `rotate(${srotation}deg)`;
-
-
+    hour.innerHTML=h;
+    min.innerHTML=m;
+    sec.innerHTML=s;
 
 
 })
