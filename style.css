@@ -77,6 +77,7 @@
   position: absolute;
   background-color: black;
   border-radius: 20%;
+  transform-origin: bottom;
 
 }
 .hour-hand{
