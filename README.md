@@ -7,7 +7,7 @@ A simple **analog clock** built using HTML, CSS, and JavaScript. It shows the cu
 - Responsive and clean design.
 
 ## where to see
--This project is live at- https://samithspalan.github.io/Analog-Clock/
+-This project is live at - https://samithspalan.github.io/Analog-Clock/
 
 ## Files
 - `index.html`: Clock structure.
